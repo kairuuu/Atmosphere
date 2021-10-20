@@ -169,6 +169,7 @@ _ZN3ams4kern10KScheduler12ScheduleImplEv:
 
     /* Clear the need's scheduling bool (and dmb ish after, as it's an atomic). */
     /* TODO: Should this be a stlrb? Nintendo does not do one. */
+    /* strb appears to be a little more specialized in this case? maybe latency is better. */
     strb   wzr, [x20]
     dmb    ish
 
