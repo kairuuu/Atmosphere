@@ -290,7 +290,7 @@ This reserves an additional 64 opcodes for future use.
 ---
 
 ### Code Type 0xC0: Begin Register Conditional Block
-Code type 0xC0 performs a comparison of the contents of a register and another value. This code support multiple operand types, see below.
+Code type 0xC0 performs a comparison of the contents of a register and another value. This code supports multiple operand types, see below.
 
 If the condition is not met, all instructions until the appropriate conditional block terminator are skipped.
 
