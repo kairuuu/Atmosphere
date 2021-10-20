@@ -35,7 +35,7 @@ Atmosphère manages cheat code through the execution of a small, custom virtual 
 + Support was added for nesting conditional blocks.
 + An instruction was added to perform much more complex arbitrary arithmetic on two registers.
 + An instruction was added to allow writing the contents of registers to a memory address specified by another register.
-+ The pre-existing implementation did not correctly synchronize with the application process, and thus would cause heavy lag under certain circumstances (especially around loading screens). This has been fixed in Atmosphère's implementation.
++ The pre-existing implementation did not correctly synchronize with the application process, and thus would cause heavy lag under certain circumstances (especially around loading screens) -- this has been fixed in Atmosphère's implementation.
 
 ## Cheat Code Format
 The following provides documentation of the instruction format for the virtual machine used to manage cheat codes.
